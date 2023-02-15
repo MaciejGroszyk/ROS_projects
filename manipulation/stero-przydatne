@@ -1,0 +1,12 @@
+roscore
+    roslaunch manipulation velma_system.launch
+    roslaunch velma_ros_plugin velma_planner.launch
+    rosrun rcprg_ros_utils run_rviz.sh
+    rosrun manipulation <nasz_plik_projektowy>
+
+czyszczenie velmy
+
+rosrun velma_common reset_shm_comm.py
+
+roslaunch rcprg_gazebo_utils gazebo_client.launch
+

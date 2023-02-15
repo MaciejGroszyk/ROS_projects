@@ -1,0 +1,47 @@
+Skrypt uruchomiony 2022-01-09 17:21:12+0100
+]0;maciej@komputerUbuntu1804: ~/mobile_ws/src/groszyk-zembron/manipulation[01;32mmaciej@komputerUbuntu1804[00m:[01;34m~/mobile_ws/src/groszyk-zembron/manipulation[00m$ c[Kcd scriptts/
+]0;maciej@komputerUbuntu1804: ~/mobile_ws/src/groszyk-zembron/manipulation/scripts[01;32mmaciej@komputerUbuntu1804[00m:[01;34m~/mobile_ws/src/groszyk-zembron/manipulation/scripts[00m$  touch p2_wezel
+]0;maciej@komputerUbuntu1804: ~/mobile_ws/src/groszyk-zembron/manipulation/scripts[01;32mmaciej@komputerUbuntu1804[00m:[01;34m~/mobile_ws/src/groszyk-zembron/manipulation/scripts[00m$  code .
+]0;maciej@komputerUbuntu1804: ~/mobile_ws/src/groszyk-zembron/manipulation/scripts[01;32mmaciej@komputerUbuntu1804[00m:[01;34m~/mobile_ws/src/groszyk-zembron/manipulation/scripts[00m$  code .[K[K[K[K[K[Kpython p2_wezel.py 
+Traceback (most recent call last):
+  File "p2_wezel.py", line 3, in <module>
+    import roslib; roslib.load_manifest('velma_task_cs_ros_interface')
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslib/launcher.py", line 64, in load_manifest
+    sys.path = _generate_python_path(package_name, _rospack) + sys.path
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslib/launcher.py", line 97, in _generate_python_path
+    m = rospack.get_manifest(pkg)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack.py", line 171, in get_manifest
+    return self._load_manifest(name)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack.py", line 215, in _load_manifest
+    retval = self._manifests[name] = parse_manifest_file(self.get_path(name), self._manifest_name, rospack=self)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack.py", line 207, in get_path
+    raise ResourceNotFound(name, ros_paths=self._ros_paths)
+rospkg.common.ResourceNotFound: velma_task_cs_ros_interface
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/opt/ros/melodic/share
+]0;maciej@komputerUbuntu1804: ~/mobile_ws/src/groszyk-zembron/manipulation/scripts[01;32mmaciej@komputerUbuntu1804[00m:[01;34m~/mobile_ws/src/groszyk-zembron/manipulation/scripts[00m$  python p2_wezel.py [K[K[K[K[K[K[K[K[K[K[K[Kmoj_wspanialy_wezel.py online
+Traceback (most recent call last):
+  File "moj_wspanialy_wezel.py", line 3, in <module>
+    import roslib; roslib.load_manifest('velma_task_cs_ros_interface')
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslib/launcher.py", line 64, in load_manifest
+    sys.path = _generate_python_path(package_name, _rospack) + sys.path
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslib/launcher.py", line 97, in _generate_python_path
+    m = rospack.get_manifest(pkg)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack.py", line 171, in get_manifest
+    return self._load_manifest(name)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack.py", line 215, in _load_manifest
+    retval = self._manifests[name] = parse_manifest_file(self.get_path(name), self._manifest_name, rospack=self)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack.py", line 207, in get_path
+    raise ResourceNotFound(name, ros_paths=self._ros_paths)
+rospkg.common.ResourceNotFound: velma_task_cs_ros_interface
+ROS path [0]=/opt/ros/melodic/share/ros
+ROS path [1]=/opt/ros/melodic/share
+]0;maciej@komputerUbuntu1804: ~/mobile_ws/src/groszyk-zembron/manipulation/scripts[01;32mmaciej@komputerUbuntu1804[00m:[01;34m~/mobile_ws/src/groszyk-zembron/manipulation/scripts[00m$  python p2_wezel.py 
+Traceback (most recent call last):
+  File "p2_wezel.py", line 3, in <module>
+    import roslib; roslib.load_manifest('velma_task_cs_ros_interface')
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslib/launcher.py", line 64, in load_manifest
+    sys.path = _generate_python_path(package_name, _rospack) + sys.path
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/roslib/launcher.py", line 97, in _generate_python_path
+    m = rospack.get_manifest(pkg)
+  File "/usr/lib/python2.7/dist-packages/rospkg/rospack
